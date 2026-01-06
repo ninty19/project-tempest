@@ -1,5 +1,6 @@
 {
   "discord_token": "token here",
+  "bot_name":"tempest"
   "chat_model": "qwen3", #examples
   "voice_model": "llama3.2",
   "permitted_channels": [
@@ -18,4 +19,5 @@
   "temp": "model temperature example 0.7",
   "num_gpu": 1 "number of gpus"
 }
+
 
