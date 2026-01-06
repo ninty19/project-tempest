@@ -27,7 +27,7 @@ voice_model=cfg["voice_model"]
 Bot=commands.Bot(command_prefix="//",intents=intents)
 memory_filename="memory.json"
 max_memory=cfg["memory_max_size"]
-for ext in ("main_commands", "nfc_commands"):
+for ext in ("main_commands"):
     Bot.load_extension(ext)
 
 
@@ -124,6 +124,7 @@ logging.basicConfig(
     format='%(asctime)s:%(levelname)s:%(name)s: %(message)s')
 
 Bot.run(token)
+
 
 
 
