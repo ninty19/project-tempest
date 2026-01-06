@@ -34,7 +34,7 @@ for ext in ("main_commands"):
 #on ready event
 @Bot.event
 async def on_ready():
-    await Bot.user.edit(username=cfg["bot_name")
+    await Bot.user.edit(username=cfg["bot_name"])
     print("startup")
     channel = Bot.get_channel(cfg["startup_channel"])
     await channel.send("all systems online\nhello! <3")
@@ -124,6 +124,7 @@ logging.basicConfig(
     format='%(asctime)s:%(levelname)s:%(name)s: %(message)s')
 
 Bot.run(token)
+
 
 
 
