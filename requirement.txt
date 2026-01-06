@@ -1,0 +1,6 @@
+discord.py==2.6.0
+ollama
+Pillow
+aiohttp
+torch
+TTS
