@@ -17,7 +17,9 @@
   "owner": "your discord username",
   "startup_channel": "channel id for startup channel",
   "temp": "model temperature example 0.7",
-  "num_gpu": 1 "number of gpus"
+  "num_gpu": 1 "number of gpus",
+  "keep_alive": 90
 }
+
 
 
